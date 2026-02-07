@@ -40,7 +40,7 @@ let angleSpeed = 0.003;
 
 function updateColors() {
 	for (let i = 0; i < 4; i++) {
-		colors[i].h = lerp(colors[i].h, targetColors[i].h, 0.03); // 色補間速度を上げる
+		colors[i].h = lerp(colors[i].h, targetColors[i].h, 0.03);
 		colors[i].s = lerp(colors[i].s, targetColors[i].s, 0.03);
 		colors[i].l = lerp(colors[i].l, targetColors[i].l, 0.03);
 
